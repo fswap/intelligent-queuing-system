@@ -1,0 +1,25 @@
+{
+  "name": "enclave_for_conclave",
+  "version": "1.0.0",
+  "description": "Hack the crisis India Online Hackathon 2020 Batch 4 Team 103",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --no-deprecation index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "mongoDB"
+  ],
+  "author": "Shahryar Saify",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "geolib": "^3.2.1",
+    "joi": "^14.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.7"
+  }
+}
